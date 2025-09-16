@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 
-public class Livro{
+public class Livro extends Midia{
     private String autor;
     private String editora;
     private int numero_paginas;
