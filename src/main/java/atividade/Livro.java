@@ -12,4 +12,11 @@ public class Livro extends Midia{
     private String editora;
     private int numero_paginas;
 
+
+    @Override
+    public String getInformacoes(){
+        String mensagem = "Titulo: "+ this.getTitulo();
+        mensagem += "Autor: " + this.getAutor();
+    }
+
 }
